@@ -1,35 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* Text */
-
-body {font-family: Montserrat;
-				font-size: 16px;
-				font-weight:400;}
-
-h2 {font-family: Montserrat;
-	font-weight: 300;
-	font-size: 1.5em}
-
-p {font-family: Montserrat;
-	font-weight: 400;
-	font-size: 1em}
-
-a.btn {font-family: Montserrat;
-	font-weight: 700;
-	font-size: 1em}
-
-a.logo {font-family:Montserrat;
-		font-weight: 700;
-		font-size: 1em;
-		color: #D9001B;
-		margin-left: 16px;
-		z-index: 1;}
-
-a.logo:hover {color: #A30014;}
-
-img.logo-icon {margin-left:64px;}
-
 /* Button Styling */
 a.btn { font-size: 12px;
 		text-decoration:none;
@@ -50,11 +21,6 @@ a.btn:hover { font-size: 12px;
 		display: inline-block;
 		border: none;
 		padding: 16px 64px}
-
-nav {font-family: Montserrat;
-		font-size: 16px;
-		text-align: right;}
-
 
 /* Section Styling */
 
@@ -94,44 +60,6 @@ div.workouts, div.about, div.join-us {
 	width: 45%;
 }
 
-/* Nav */
-
-nav {
-	position: absolute;
-	top: 0px; left: 0px;
-	padding: 0 0 0 0;
-	width: 100%;
-}
-
-nav::after {content:' '; display: block; clear: both;}
-
-nav ul {list-style: none;
-		margin: 0;
-		padding: 0px;}
-
-nav ul li a {display: inline-block;
-			padding: 0px 16px;
-			Width: 164px;
-			position: relative;
-			color: black;
-			}
-
-nav > ul {padding-left: 564px;
-
-		}
-
-nav > ul > li {float: left;}
-
-nav ul li a:visited {color: black;}
-nav ul li a:hover {color: darkgray;}
-
-
-/* Footer */
-footer {
-	text-align: center;
-	background: #F2F2F2;
-	padding: 32px;
-}
 
 
 @media screen and (max-width: 1024px){
