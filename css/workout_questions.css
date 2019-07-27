@@ -1,2 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+
+button.btn.btn-primary {
+    color: white;
+}
