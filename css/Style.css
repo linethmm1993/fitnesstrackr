@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Text */
+
+h2 {font-family: Montserrat; 
+	font-weight: 300;
+	font-size: 24px}
+
+p {font-family: Montserrat;
+	font-weight: 400;
+	font-size: 16px}
+
+a.btn {font-family: Montserrat;
+	font-weight: 700;
+	font-size: 16px}
+
+.logo {font-family:Montserrat;
+		font-weight: 700;
+		font-size: 16px;
+		color: #D9001B;
+		margin-left: 64px;
+		z-index: 1;}
+.logo:hover {color: #A30014;}
+
+/* Button Styling */
+a.btn { font-size: 12px;
+		text-decoration:none;
+		text-align: center;
+		color: white;
+		background-color: #D9001B;
+		border-radius: 2px;
+		display: inline-block;
+		border: none;
+		padding: 16px 64px}
+
+a.btn:hover { font-size: 12px;
+		text-decoration:none;
+		text-align: center;
+		color: white;
+		background-color: #A30014;
+		border-radius: 2px;
+		display: inline-block;
+		border: none;
+		padding: 16px 64px}
+
+nav {font-family: Montserrat;
+		font-size: 16px;
+		text-align: right;}
+
+
+/* Section Styling */
+
+div.workouts, div.about, div.join-us {
+	margin-top:64px;
+	margin-bottom: 64px;
+	padding: 64px 64px;
+}
+
+.workout-img-tag {
+	float: left; 
+}
+
+.about-img-tag {
+	float: right;
+}
+
+.about, .join-us {
+	clear: both;
+}
+
+.join-us {
+	text-align: center;
+}
+
+.workout-content {
+	float: right;
+	width: 45%;
+	
+}
+
+.about-content {
+	width: 45%;
+}
+
+/* Nav */
+
+nav {
+	position: absolute; 
+	top: 0px; left: 0px;
+	padding: 0 0 0 0;
+	width: 100%;
+}
+
+nav::after {content:' '; display: block; clear: both;}
+
+nav ul {list-style: none;
+		margin: 0;
+		padding: 0px;}
+
+nav ul li a {display: inline-block;
+			padding: 0px 16px;
+			Width: 164px; 
+			position: relative;
+			color: black;
+			}
+
+nav > ul {padding-left: 564px;
+
+		}
+
+nav > ul > li {float: left;}
+
+nav ul li a:visited {color: black;}
+nav ul li a:hover {color: darkgray;}
+
+
+/* Footer */
+footer {
+	text-align: center;
+	background: #F2F2F2;
+	padding: 32px;
+}
+	
