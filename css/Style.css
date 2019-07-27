@@ -3,25 +3,32 @@
 
 /* Text */
 
-h2 {font-family: Montserrat; 
+body {font-family: Montserrat;
+				font-size: 16px;
+				font-weight:400;}
+
+h2 {font-family: Montserrat;
 	font-weight: 300;
-	font-size: 24px}
+	font-size: 1.5em}
 
 p {font-family: Montserrat;
 	font-weight: 400;
-	font-size: 16px}
+	font-size: 1em}
 
 a.btn {font-family: Montserrat;
 	font-weight: 700;
-	font-size: 16px}
+	font-size: 1em}
 
-.logo {font-family:Montserrat;
+a.logo {font-family:Montserrat;
 		font-weight: 700;
-		font-size: 16px;
+		font-size: 1em;
 		color: #D9001B;
-		margin-left: 64px;
+		margin-left: 16px;
 		z-index: 1;}
-.logo:hover {color: #A30014;}
+
+a.logo:hover {color: #A30014;}
+
+img.logo-icon {margin-left:64px;}
 
 /* Button Styling */
 a.btn { font-size: 12px;
@@ -54,15 +61,19 @@ nav {font-family: Montserrat;
 div.workouts, div.about, div.join-us {
 	margin-top:64px;
 	margin-bottom: 64px;
+	margin-left: 64px;
+	margin-right: 64px;
 	padding: 64px 64px;
 }
 
 .workout-img-tag {
-	float: left; 
+	float: left;
+	margin-bottom: 64px;
 }
 
 .about-img-tag {
 	float: right;
+	margin-bottom: 64px;
 }
 
 .about, .join-us {
@@ -76,7 +87,7 @@ div.workouts, div.about, div.join-us {
 .workout-content {
 	float: right;
 	width: 45%;
-	
+
 }
 
 .about-content {
@@ -86,7 +97,7 @@ div.workouts, div.about, div.join-us {
 /* Nav */
 
 nav {
-	position: absolute; 
+	position: absolute;
 	top: 0px; left: 0px;
 	padding: 0 0 0 0;
 	width: 100%;
@@ -100,7 +111,7 @@ nav ul {list-style: none;
 
 nav ul li a {display: inline-block;
 			padding: 0px 16px;
-			Width: 164px; 
+			Width: 164px;
 			position: relative;
 			color: black;
 			}
@@ -121,4 +132,51 @@ footer {
 	background: #F2F2F2;
 	padding: 32px;
 }
-	
+
+
+@media screen and (max-width: 1024px){
+
+/* Sections */
+
+.workout-img-tag {
+	height: 300px;
+	width: 450px;
+	float: none;
+	margin-bottom: 64px;
+	align: center;
+}
+
+.about-img-tag {
+	height: 300px;
+	width: 450px;
+	float: none;
+	margin-bottom: 64px;
+	align: center;
+}
+
+.workout-content {
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+
+.about-content {
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 600px){
+
+	img.workout-img-tag {
+		height: auto;
+		width: 250px;
+	}
+
+	img.about-img-tag {
+		height: auto;
+		width: 250px;
+	}
+}
