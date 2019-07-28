@@ -1,48 +1,49 @@
 @charset "UTF-8";
-/* CSS Document */
 
+/* CSS Document */
 /* Text */
 body {
-	font-family: Montserrat;
-				font-size: 16px;
-				font-weight:400;
-			}
-
-h2 {
-	font-family: Montserrat;
-	font-weight: 300;
-	font-size: 1.5em;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-h3{
-	font-family: Montserrat;
-	font-weight: 700;
-	font-size: 1em;
-	color: #555555;
+h2 {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 1em;
+  color: #555555;
 }
 
 p {
-	font-family: Montserrat;
-	font-weight: 400;
-	font-size: 1em;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 1em;
 }
 
-a.btn {font-family: Montserrat;
-	font-weight: 700;
-	font-size: 1em;
+.btn {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 1em;
 }
 
 a.logo {
-	font-family:Montserrat;
-		font-weight: 700;
-		font-size: 1em;
-		color: #D9001B;
-		margin-left: 16px;
-		z-index: 1;
-	}
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 1em;
+  color: #D9001B;
+  margin-left: 16px;
+  z-index: 1;
+}
 
 nav {
-	font-family: Montserrat;
-		font-size: 1em ;
-		text-align: right;
-	}
+  font-family: Montserrat;
+  font-size: 1em;
+  text-align: right;
+}
