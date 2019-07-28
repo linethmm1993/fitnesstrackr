@@ -2,29 +2,47 @@
 /* CSS Document */
 
 /* Text */
-body {font-family: Montserrat;
+body {
+	font-family: Montserrat;
 				font-size: 16px;
-				font-weight:400;}
+				font-weight:400;
+			}
 
-h2 {font-family: Montserrat;
+h2 {
+	font-family: Montserrat;
 	font-weight: 300;
-	font-size: 1.5em}
+	font-size: 1.5em;
+}
 
-p {font-family: Montserrat;
+h3{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 1em;
+	color: #555555;
+}
+
+p {
+	font-family: Montserrat;
 	font-weight: 400;
-	font-size: 1em}
+	font-size: 1em;
+}
 
 a.btn {font-family: Montserrat;
 	font-weight: 700;
-	font-size: 1em}
+	font-size: 1em;
+}
 
-a.logo {font-family:Montserrat;
+a.logo {
+	font-family:Montserrat;
 		font-weight: 700;
 		font-size: 1em;
 		color: #D9001B;
 		margin-left: 16px;
-		z-index: 1;}
+		z-index: 1;
+	}
 
-nav {font-family: Montserrat;
+nav {
+	font-family: Montserrat;
 		font-size: 1em ;
-		text-align: right;}
+		text-align: right;
+	}

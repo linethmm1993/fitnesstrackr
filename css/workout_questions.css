@@ -1,6 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
 
-button.btn.btn-primary {
-    color: white;
+body{
+  text-align: center;
+}
+
+
+.btn{
+  text-align: left;
+  background: white;
+  color: #555;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(215, 215, 215, 1);
+  border-radius: 0px;
+}
+
+.btn-primary{
+  width: 288px;
+    height: 40px;
 }
