@@ -1,0 +1,28 @@
+.signup-page {
+  margin-left: 64px;
+  margin-top: 64px;
+}
+
+.btn {
+  margin: 64px 0;
+}
+
+.header-line {
+  margin-bottom: 64px;
+}
+
+.input-fields {
+  width: 50%;
+}
+
+.title {
+  width: 75%;
+}
+
+@media screen and (max-width: 768px){
+
+		.input-fields, .title {
+			width: 75%;
+
+		}
+	}
