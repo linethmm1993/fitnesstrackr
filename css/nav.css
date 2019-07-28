@@ -2,15 +2,14 @@
 /* CSS Document */
 
 /* Text */
-a.logo:hover {color: #A30014;}
+a.navbar-brand.logo:hover {
+    color: rgba(217, 0, 27, 1);
+}
+img.logo-icon {
+	margin-left: 64px;
+    filter: invert(1);
+}
 
-
-	img.logo-icon {
-		margin-left: 64px;
-	    filter: invert(1);
-	}
-
-.invert { filter: invert(100%); }
 
 /* Nav */
 nav {
