@@ -4,10 +4,11 @@
 /* Text */
 a.logo:hover {color: #A30014;}
 
-img.logo-icon {margin-left:64px;
-							color: #FFFFFF
-							filter:invert(100%);
-						}
+
+	img.logo-icon {
+		margin-left: 64px;
+	    filter: invert(1);
+	}
 
 .invert { filter: invert(100%); }
 
@@ -20,7 +21,7 @@ color: white;
 /* Footer */
 footer {
 	text-align: center;
-	background: #212529;
+	background: #343a40;
 	padding: 32px;
 	color: white;
 }
