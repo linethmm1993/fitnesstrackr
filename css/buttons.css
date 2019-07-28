@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* CSS Document */
+/* Button Styling */
+.btn {
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: #D9001B;
+  border-radius: 2px;
+  display: inline-block;
+  border: none;
+  padding: 16px 64px;
+}
+
+.btn:hover {
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: #A30014;
+  border-radius: 2px;
+  display: inline-block;
+  border: none;
+  padding: 16px 64px;
+}

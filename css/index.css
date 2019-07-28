@@ -1,110 +1,82 @@
 @charset "UTF-8";
+
 /* CSS Document */
-
-/* Button Styling */
-a.btn { font-size: 1em;
-		text-decoration:none;
-		text-align: center;
-		color: white;
-		background-color: #D9001B;
-		border-radius: 2px;
-		display: inline-block;
-		border: none;
-		padding: 16px 64px}
-
-a.btn:hover { font-size: 1em;
-		text-decoration:none;
-		text-align: center;
-		color: white;
-		background-color: #A30014;
-		border-radius: 2px;
-		display: inline-block;
-		border: none;
-		padding: 16px 64px}
-
 /* Section Styling */
-
 div.workouts, div.about, div.join-us {
-	margin-top:64px;
-	margin-bottom: 64px;
-	margin-left: 64px;
-	margin-right: 64px;
-	padding: 64px 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  margin-left: 64px;
+  margin-right: 64px;
+  padding: 64px 64px;
 }
 
 .workout-img-tag {
-	float: left;
-	margin-bottom: 64px;
+  float: left;
+  margin-bottom: 64px;
 }
 
 .about-img-tag {
-	float: right;
-	margin-bottom: 64px;
+  float: right;
+  margin-bottom: 64px;
 }
 
 .about, .join-us {
-	clear: both;
+  clear: both;
 }
 
 .join-us {
-	text-align: center;
+  text-align: center;
 }
 
 .workout-content {
-	float: right;
-	width: 45%;
-
+  float: right;
+  width: 45%;
 }
 
 .about-content {
-	width: 45%;
+  width: 45%;
 }
 
+@media screen and (max-width: 1024px) {
 
+  /* Sections */
+  .workout-img-tag {
+    height: 300px;
+    width: 450px;
+    float: none;
+    margin-bottom: 64px;
+    align: center;
+  }
 
-@media screen and (max-width: 1024px){
+  .about-img-tag {
+    height: 300px;
+    width: 450px;
+    float: none;
+    margin-bottom: 64px;
+    align: center;
+  }
 
-/* Sections */
+  .workout-content {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
 
-.workout-img-tag {
-	height: 300px;
-	width: 450px;
-	float: none;
-	margin-bottom: 64px;
-	align: center;
+  .about-content {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
 }
 
-.about-img-tag {
-	height: 300px;
-	width: 450px;
-	float: none;
-	margin-bottom: 64px;
-	align: center;
-}
+@media screen and (max-width: 600px) {
+  img.workout-img-tag {
+    height: auto;
+    width: 250px;
+  }
 
-.workout-content {
-	float: none;
-	text-align: center;
-	width: 100%;
-}
-
-.about-content {
-	float: none;
-	text-align: center;
-	width: 100%;
-}
-
-}
-
-@media screen and (max-width: 600px){
-
-	img.workout-img-tag {
-		height: auto;
-		width: 250px;
-	}
-
-	img.about-img-tag {
-		height: auto;
-		width: 250px;
-	}
+  img.about-img-tag {
+    height: auto;
+    width: 250px;
+  }
 }
