@@ -73,10 +73,12 @@ div.workouts, div.about, div.join-us {
   img.workout-img-tag {
     height: auto;
     width: 250px;
+    align: center;
   }
 
   img.about-img-tag {
     height: auto;
     width: 250px;
+    align: center;
   }
 }
