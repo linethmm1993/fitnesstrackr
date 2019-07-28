@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* Button Styling */
-a.btn { font-size: 12px;
+a.btn { font-size: 1em;
 		text-decoration:none;
 		text-align: center;
 		color: white;
@@ -12,7 +12,7 @@ a.btn { font-size: 12px;
 		border: none;
 		padding: 16px 64px}
 
-a.btn:hover { font-size: 12px;
+a.btn:hover { font-size: 1em;
 		text-decoration:none;
 		text-align: center;
 		color: white;

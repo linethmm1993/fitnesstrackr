@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* Text */
+h2 {font-family: Montserrat;
+	font-weight: 300;
+	font-size: 24px}
+
+/* Sets */
+
+.set-1-input, .weight-1-input {
+	width: 88px;
+	border-radius: 16px;
+	text-align: center;
+}
+
+.weights, .weight-1 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.sets, .set-1 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Button Styling */
+a.btn { font-size: 1em;
+		text-decoration:none;
+		text-align: center;
+		color: white;
+		background-color: #D9001B;
+		border-radius: 2px;
+		display: inline-block;
+		border: none;
+		padding: 16px 64px}
+
+a.btn:hover { font-size: 1em;
+		text-decoration:none;
+		text-align: center;
+		color: white;
+		background-color: #A30014;
+		border-radius: 2px;
+		display: inline-block;
+		border: none;
+		padding: 16px 64px}
