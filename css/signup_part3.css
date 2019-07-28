@@ -1,0 +1,27 @@
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  margin-top: 64px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 50px;
+}
+
+.thank_you{
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    margin-top: 64px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+}
