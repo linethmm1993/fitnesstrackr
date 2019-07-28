@@ -9,21 +9,37 @@ h2 {font-family: Montserrat;
 
 /* Sets */
 
+h2, h3, p { margin-left: 64px
+		}
+
+h2 {
+	margin-top: 64px;
+}
+
+.comment-box {
+	margin-left: 64px;
+	margin-bottom: 64px;
+	width: 50%;
+}
+.weights, .sets, {
+	margin-left: 64px;
+}
+
 .set-1-input, .weight-1-input {
 	width: 88px;
 	border-radius: 16px;
 	text-align: center;
 }
 
-.weights, .weight-1 {
+.set-1, .weight-1 {
 	display: inline-block;
 	vertical-align: top;
 }
 
-.sets, .set-1 {
-	display: inline-block;
-	vertical-align: top;
+.weight-group, .set-group {
+	margin-left: 64px;
 }
+
 
 /* Button Styling */
 a.btn { font-size: 1em;
@@ -45,3 +61,13 @@ a.btn:hover { font-size: 1em;
 		display: inline-block;
 		border: none;
 		padding: 16px 64px}
+
+/* Responsive */
+
+@media screen and (max-width: 768px){
+
+		.comment-box {
+			width: 75%;
+
+		}
+	}
