@@ -9,12 +9,18 @@ h2 {font-family: Montserrat;
 
 /* Sets */
 
-h2, h3, p { margin-left: 64px
+.header-line {
+	margin-bottom: 64px;
+}
+
+h2, h3, p, .btn { margin-left: 64px
 		}
 
 h2 {
 	margin-top: 64px;
 }
+
+.btn {margin-bottom: 64px;}
 
 .comment-box {
 	margin-left: 64px;
