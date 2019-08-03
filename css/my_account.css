@@ -1,0 +1,22 @@
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.title {
+  margin-top: 64px;
+  margin-left: 64px;
+}
+
+i {margin-left: 64px;
+  margin-top: 32px;
+}
+
+.settings-text, .calendar-text, .notes-text, .profile-text {display: inline-block;
+                margin-left: 8px;
+                }
+
+.settings-group:hover {color: #D9001B;}
+.calendar-group:hover {color: #D9001B;}
+.notes-group:hover {color: #D9001B;}
+.profile-group:hover {color: #D9001B;}
