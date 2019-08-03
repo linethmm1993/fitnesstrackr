@@ -2,3 +2,22 @@ footer {
   position: absolute;
   bottom: 0;
 }
+
+.signup_text{
+  font-style: italic;
+}
+
+.login_body{
+  margin-top: 64px;
+  margin-bottom: 64px;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.input-fields {
+  width: 35%;
+}
+
+.title, .input, .button-submit{
+  padding-bottom: 24px;
+}
