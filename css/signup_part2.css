@@ -1,3 +1,25 @@
-.signup_page {
+@charset "UTF-8";
+
+/* CSS Document */
+.signup_part2_section {
+  text-align: left;
   margin-left: 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
+
+.question, .title {
+  margin-bottom: 30px;
+}
+
+.title {
+  width: 50%;
+}
+
+@media screen and (max-width:768px) {
+  .title {
+    width: 75%;
+  }
+}
+
+/*test*/
