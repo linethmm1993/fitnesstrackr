@@ -97,6 +97,10 @@ a.btn:hover {
   display: block;
 }
 
+.download-btn { margin-bottom: 64px;
+                margin-left: 64px; }
+
+
 /* Responsive */
 @media screen and (max-width: 768px) {
   .comment-box {
@@ -107,5 +111,16 @@ a.btn:hover {
     position: absolute;
 		top: 25%;
     left: -5%;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .comment-box {
+    width: 50%;
+  }
+
+  .overlay-btns {
+    position: absolute;
+    margin-left: 64px;
   }
 }
