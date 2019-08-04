@@ -25,9 +25,10 @@
     <header>
       <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
-        <a href="index.html"><img class="logo-icon" src="../images/fitnesstrackr-logo.png" alt="fitness-trackr-logo" href="index.html" height="32" width="32"></a>
+        <div class="logo_name">
+        <a href="index.html"><img class="logo-icon" src="../images/fitnesstrackr-logo-white.png" alt="fitness-trackr-logo" href="index.html" height="32" width="32"></a>
         <a class="navbar-brand logo" title="fitness-trackr" href="index.html">Fitness Trackr</a>
-
+      </div>
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -53,12 +54,14 @@
       </nav>
     </header>
 
+<!-- Overlay start -->
     <div id="overlay">
       <div class="overlay-btns">
-      <button class="btn saveworkout-btn">SAVE WORKOUT</button>
+      <a class="btn" title="workouts" href="..pdf/workout_resluts.pdf" target="_blank">SAVE WORKOUT</a>
       <button class="btn-inverse cancel-btn" onclick="off()">CANCEL</button>
     </div>
     </div>
+<!-- Overlay end -->
 
     <div class="your-workout">
       <h2>YOUR WORKOUT</h2>
@@ -325,6 +328,7 @@
                                                                                     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
                                                                                     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
                                                                                     <script src="../js/overlay.js"></script>
+                                                                                    <script src="../js/save_pdf.js"></script>
 
                                                                                     <footer>
                                                                                       &copy; Fitness Trackr
