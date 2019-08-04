@@ -2,6 +2,16 @@
 
 /* CSS Document */
 /* Button Styling */
+
+/*iPhone X*/
+@media screen and (max-width: 375px) {
+  .btn, .btn-inverse{
+    width: 14em !important;
+  }
+
+
+}
+
 .btn {
   font-size: 1em;
   text-decoration: none;
@@ -13,7 +23,7 @@
   border: none;
   padding: 16px 64px;
   width: 20em;
-  
+
 }
 
 .btn-inverse{
