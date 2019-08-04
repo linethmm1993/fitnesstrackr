@@ -28,3 +28,7 @@ i {margin-left: 64px;
 }
 
 .logout-group:hover {color: #D9001B;}
+
+a {color: black;}
+
+a.hover { color: #D9001B;}
