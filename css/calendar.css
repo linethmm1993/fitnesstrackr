@@ -10,7 +10,7 @@ footer {
 
 
 .bootstrap-datetimepicker-widget tr:hover {
-    background-color: #808080;
+    background-color: none;
 }
 
 .calendar { margin-left: 48px;}
