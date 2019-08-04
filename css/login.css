@@ -21,3 +21,10 @@ footer {
 .title, .input, .button-submit{
   padding-bottom: 24px;
 }
+
+
+@media screen and (max-width: 600px) {
+  .input-fields {
+    width: 100%;
+  }
+}
