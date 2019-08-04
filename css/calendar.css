@@ -1,0 +1,14 @@
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.title {
+  margin-top: 64px;
+  margin-left: 64px;
+}
+
+
+.bootstrap-datetimepicker-widget tr:hover {
+    background-color: #808080;
+}
