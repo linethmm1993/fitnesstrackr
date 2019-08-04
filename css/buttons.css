@@ -12,6 +12,7 @@
   display: inline-block;
   border: none;
   padding: 16px 64px;
+  width: 16em;
 }
 
 .btn-inverse{
@@ -22,9 +23,11 @@
   color: #D9001B;
   background-color: white;
   border-radius: 2px;
-  border-color: #D9001B;
+  border: 1px solid #D9001B;
   display: inline-block;
   padding: 16px 64px;
+  width: 16em;
+
 }
 
 .btn:hover {
