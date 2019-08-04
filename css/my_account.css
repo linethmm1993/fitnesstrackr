@@ -20,3 +20,11 @@ i {margin-left: 64px;
 .calendar-group:hover {color: #D9001B;}
 .notes-group:hover {color: #D9001B;}
 .profile-group:hover {color: #D9001B;}
+
+.logout-group  {
+  margin-left: 64px;
+  margin-top: 64px;
+  text-decoration: underline;
+}
+
+.logout-group:hover {color: #D9001B;}
