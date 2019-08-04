@@ -1,28 +1,30 @@
 @charset "UTF-8";
-/* CSS Document */
 
+/* CSS Document */
 /* Text */
 a.navbar-brand.logo:hover {
-    color: rgba(217, 0, 27, 1);
-}
-img.logo-icon {
-	margin-left: 64px;
-    filter: invert(1);
+  color: rgba(217, 0, 27, 1);
 }
 
+.logo_name:hover img.logo-icon{
+  content: url("../images/fitnesstrackr-logo-red-hover.png");
+  color: blue;
+}
+
+.logo_name:hover .logo{
+  color: #D9001B;;
+}
 
 /* Nav */
 nav {
-color: white;
+  color: white;
 }
-
 
 /* Footer */
 footer {
-	text-align: center;
-	background: #343a40;
-	padding: 32px;
-	color: white;
+  text-align: center;
+  background: #343a40;
+  padding: 32px;
+  color: white;
   width: 100%;
-
 }
