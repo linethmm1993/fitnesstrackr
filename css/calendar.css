@@ -14,3 +14,16 @@ footer {
 }
 
 .calendar { margin-left: 48px;}
+
+/*dropdown sections*/
+.dropdown-options{
+  width: 192px;
+}
+
+.form-group{
+  display: flex;
+}
+
+.weekday_label{
+  margin-right: 15px;
+}
