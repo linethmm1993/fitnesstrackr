@@ -5,6 +5,7 @@
   text-align: left;
   margin-left: 64px;
   margin-top: 64px;
+  margin-bottom: 64px;
 }
 
 .question, .title{
@@ -15,47 +16,8 @@
   width: 50%;
 }
 
-.btn{
-  text-align: left;
-  background: white;
-  color: #555;
-  box-sizing: border-box;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgba(215, 215, 215, 1);
-  border-radius: 0px;
-}
-
-.search-btn{
-  text-align: center;
-  margin-bottom: 64px;
-  background-color: rgba(217, 0, 27, 1);
-  color: white;
-  font-weight: bold;
-}
-
-.btn-primary, button.btn.btn-primary{
-  width: 150px;
-    height: 40px;
-}
-
-.search-btn:hover{
-  background-color: rgba(163, 0, 20, 1);
-}
-
-.btn-primary:hover, button.btn.btn-primary:hover, .btn-primary:focus, button.btn.btn-primary:focus{
-  background-color: rgba(217, 0, 27, 1);
-  border-color: rgba(217, 0, 27, 1);
-  color: white;
-}
-
 
 @media screen and (max-width:768px){
-  .btn-primary, button.btn.btn-primary{
-    width: 80px;
-      height: 40px;
-  }
-
   .title{
     width: 75%;
   }
