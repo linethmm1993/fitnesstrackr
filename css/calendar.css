@@ -18,6 +18,7 @@ footer {
 /*dropdown sections*/
 .dropdown-options{
   width: 192px;
+  margin-left: 16px;
 }
 
 .form-group{
@@ -26,4 +27,13 @@ footer {
 
 .weekday_label{
   margin-right: 15px;
+}
+
+.day-dropdown {
+   margin-left: 64px
+}
+
+.save-btn {
+  margin-left: 64px;
+  margin-top: 32px;
 }
