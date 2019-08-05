@@ -1,120 +1,106 @@
-@charset "UTF-8";
-
-/* CSS Document */
-/* Section Styling */
+/*All devices*/
 
 
-div.workouts, div.about, div.join-us {
-  margin-top: 64px;
-  margin-bottom: 64px;
-  margin-left: 64px;
-  margin-right: 64px;
-  padding: 64px 64px;
-}
-
-.workout-img-tag {
-  float: left;
-  margin-bottom: 64px;
-}
-
-.about-img-tag {
-  float: right;
-  margin-bottom: 64px;
-}
-
-.about, .join-us {
-  clear: both;
-}
-
-.join-us {
-  text-align: center;
-}
-
-.workout-content {
-  float: right;
-  width: 45%;
-}
-
-.about-content {
-  width: 45%;
-}
-
-@media screen and (max-width: 1024px) {
-
-  /* Sections */
-  .workout-img-tag {
-    height: 300px;
-    width: 450px;
-    float: none;
-    margin-bottom: 64px;
-    align: center;
+/*iPhone X*/
+@media screen and (max-width: 375px) {
+  div.workouts, div.about, div.join-us {
+    margin: 16px;
   }
 
-  .about-img-tag {
-    height: 300px;
-    width: 450px;
-    float: none;
-    margin-bottom: 64px;
-    align: center;
-  }
-
-  .workout-content {
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
-
-  .about-content {
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
-}
-
-/*Phone screen*/
-@media screen and (max-width: 600px) {
-  img.workout-img-tag {
+  .workout-img-tag, .about-img-tag {
     height: auto;
-    width: 250px;
+    width: 100%;
     align: center;
-  }
+    margin-bottom: 16px;
+}
 
-  img.about-img-tag {
-    height: auto;
-    width: 250px;
-    align: center;
-  }
-
-  .navbar{
+  .navbar {
     width: inherit;
   }
 
-  .workout-section, .about-section{
-      width: 250px;
-      margin-left: -4em;
-  }
-
-  .join-section {
-      width: 550px;
-      margin-left: -5em;
+  .workout-section, .about-section, .join-section {
+    width: 85%;
   }
 
   a.btn {
-      width: inherit;
+    width: inherit;
+    margin-bottom: 32px;
+  }
+
+  .workout-content, .about-content, .join-us{
+    text-align: center;
+  }
+
+}
+
+
+
+/*iPad*/
+@media screen and (max-width: 768px) {
+  div.workouts, div.about, div.join-us {
+    margin: 64px;
+  }
+
+  .workout-img-tag, .about-img-tag {
+    height: auto;
+    width: 100%;
+    align: center;
+    margin-bottom: 16px;
+}
+
+  .navbar {
+    width: inherit;
+  }
+
+  .workout-section, .about-section, .join-section {
+    width: 85%;
+  }
+
+  a.btn {
+    width: inherit;
+    margin-bottom: 32px;
+  }
+
+  .workout-content, .about-content, .join-us{
+    text-align: center;
   }
 }
 
 
 
-/*Mid size screen*/
-@media screen and (max-width: 1100px) {
-  img.workout-img-tag {
-    height: auto;
-    align: center;
+
+
+/*Desktop*/
+@media screen and (min-width: 1200px) {
+  div.workouts, div.about, div.join-us {
+    margin: 64px;
+    padding: 64px 64px;
   }
 
-  img.about-img-tag {
-    height: auto;
-    align: center;
+  .workout-img-tag {
+    float: left;
+    margin-bottom: 64px;
+  }
+
+  .about-img-tag {
+    float: right;
+    margin-bottom: 64px;
+  }
+
+  .about, .join-us {
+    clear: both;
+  }
+
+  .join-us {
+    text-align: center;
+  }
+
+  .workout-content {
+    float: right;
+    width: 60%;
+  }
+
+  .about-content {
+    width: 60%;
   }
 }
