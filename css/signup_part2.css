@@ -1,25 +1,41 @@
 @charset "UTF-8";
 
 /* CSS Document */
-.signup_part2_section {
-  text-align: left;
-  margin-left: 64px;
-  margin-top: 64px;
-  margin-bottom: 64px;
+.btn { margin: 24px 0;}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  .signup_part2_section { margin: 12px;}
+  .button-submit {text-align: center;}
 }
 
-.question, .title {
-  margin-bottom: 30px;
-}
-
-.title {
-  width: 50%;
-}
-
-@media screen and (max-width:768px) {
-  .title {
-    width: 75%;
+  /* Small devices (landscape phones, 576px and up) */
+  @media screen and (min-width: 576px) {
+    .signup_part2_section { margin: 16px;}
+    .button-submit {text-align: center;}
   }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media screen and (min-width: 768px) {
+    .signup_part2_section { margin: 32px; }
+    .button-submit {text-align: left;}
+    .input-fields, .title { width: 75%; }
 }
 
-/*test*/
+  /* Large devices (desktops, 992px and up)*/
+  @media screen and (min-width: 992px) {
+  .signup_part2_section {margin: 48px; }
+  .button-submit {text-align: left;}
+    .input-fields, .title { width: 75%;}
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media screen and (min-width: 1200px) {
+    .signup_part2_section { margin: 64px; }
+    .button-submit {text-align: left;}
+
+    .input-fields, .title { width: 75%;}
+  }

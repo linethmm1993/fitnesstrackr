@@ -3,14 +3,8 @@ footer {
   bottom: 0;
 }
 
-.title {
-  margin-top: 64px;
-  margin-left: 64px;
-}
 
-i {margin-left: 64px;
-  margin-top: 32px;
-}
+
 
 .settings-text, .calendar-text, .notes-text, .profile-text {display: inline-block;
                 margin-left: 8px;
@@ -22,8 +16,6 @@ i {margin-left: 64px;
 .profile-group:hover {color: #D9001B;}
 
 .logout-group  {
-  margin-left: 64px;
-  margin-top: 64px;
   text-decoration: underline;
 }
 
@@ -32,3 +24,41 @@ i {margin-left: 64px;
 a {color: black;}
 
 a.hover { color: #D9001B;}
+.title {margin-bottom: 24px;}
+.logout-group { margin: 24px 0px}
+i { margin: 8px 0px}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  .login_page { margin: 12px;}
+
+
+}
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media screen and (min-width: 576px) {
+    .login_page { margin: 16px;}
+
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media screen and (min-width: 768px) {
+    .login_page{ margin: 32px;}
+
+
+}
+
+  /* Large devices (desktops, 992px and up)*/
+  @media screen and (min-width: 992px) {
+  .login_page {margin: 48px; }
+
+
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media screen and (min-width: 1200px) {
+    .login_page { margin: 64px;}
+
+
+  }

@@ -1,27 +1,39 @@
-footer {
-  position: absolute;
-  bottom: 0;
+
+.btn { margin: 24px 0;}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  .content { margin: 12px;
+              text-align: center;}
+
 }
 
-.content {
-  text-align: center;
-}
+  /* Small devices (landscape phones, 576px and up) */
+  @media screen and (min-width: 576px) {
+    .content { margin: 16px;}
 
-.title {
-  margin-top: 64px;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 50px;
-}
-
-.thank_you{
-  margin-bottom: 25px;
-}
-
-@media screen and (max-width: 600px) {
-  .title {
-    margin-top: 64px;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
   }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media screen and (min-width: 768px) {
+    .content { margin: 32px; text-align: center;}
+
+
 }
+
+  /* Large devices (desktops, 992px and up)*/
+  @media screen and (min-width: 992px) {
+  .content {margin: 48px; text-align: center;}
+
+
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media screen and (min-width: 1200px) {
+    .content { margin: 64px; text-align: center;}
+
+
+  }

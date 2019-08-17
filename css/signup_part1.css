@@ -1,28 +1,39 @@
-.signup-page {
-  margin-left: 64px;
-  margin-top: 64px;
+
+.btn { margin: 24px 0;}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  .signup-page { margin: 12px;}
+  .button-next {text-align: center;}
 }
 
-.btn {
-  margin: 64px 0;
+  /* Small devices (landscape phones, 576px and up) */
+  @media screen and (min-width: 576px) {
+    .signup-page { margin: 16px;}
+    .button-next {text-align: center;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media screen and (min-width: 768px) {
+    .signup-page { margin: 32px; }
+    .button-next {text-align: left;}
+    .input-fields, .title { width: 75%; }
 }
 
-.header-line {
-  margin-bottom: 64px;
-}
+  /* Large devices (desktops, 992px and up)*/
+  @media screen and (min-width: 992px) {
+  .signup-page {margin: 48px; }
+  .button-next {text-align: left;}
+    .input-fields, .title { width: 75%;}
+  }
 
-.input-fields {
-  width: 50%;
-}
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media screen and (min-width: 1200px) {
+    .signup-page { margin: 64px; }
+    .button-next {text-align: left;}
 
-.title {
-  width: 75%;
-}
-
-@media screen and (max-width: 768px){
-
-		.input-fields, .title {
-			width: 75%;
-
-		}
-	}
+    .input-fields, .title { width: 75%;}
+  }
