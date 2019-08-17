@@ -21,12 +21,12 @@ footer {
 
 .logout-group:hover {color: #D9001B;}
 
-a {color: black;}
+.settings-text, .calendar-text, .notes-text, .profile-text {color: black;}
 
 a.hover { color: #D9001B;}
 .title {margin-bottom: 24px;}
 .logout-group { margin: 24px 0px}
-i { margin: 8px 0px}
+.settings-group, .calendar-group, .notes-group, .profile-group { margin: 8px 0px}
 
 
 /* Small devices (landscape phones, 576px and up) */
