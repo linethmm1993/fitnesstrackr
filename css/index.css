@@ -1,9 +1,35 @@
-/*All devices*/
+/* Extra small devices (portrait phones, less than 576px)
+ No media query for xs since this is the default in Bootstrap */
+/* Extra Small devices (landscape phones, 576px and down)*/
+@media screen and (max-width: 576px) {
+  #page {
+    margin: 12px;
+  }
 
+  .workout-img-tag, .about-img-tag {
+    height: auto;
+    width: 100%;
+    align: center;
+    margin-bottom: 16px;
+  }
 
-/*iPhone X*/
-@media screen and (max-width: 375px) {
-  div.workouts, div.about, div.join-us {
+  .navbar {
+    width: inherit;
+  }
+
+  a.btn {
+    width: inherit;
+    margin-bottom: 32px;
+  }
+
+  .workout-content, .about-content, .join-us {
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  #page {
     margin: 16px;
   }
 
@@ -12,14 +38,10 @@
     width: 100%;
     align: center;
     margin-bottom: 16px;
-}
+  }
 
   .navbar {
     width: inherit;
-  }
-
-  .workout-section, .about-section, .join-section {
-    width: 85%;
   }
 
   a.btn {
@@ -27,54 +49,22 @@
     margin-bottom: 32px;
   }
 
-  .workout-content, .about-content, .join-us{
+  .workout-content, .about-content, .join-us {
     text-align: center;
   }
-
 }
 
-
-
-/*iPad*/
-@media screen and (max-width: 768px) {
-  div.workouts, div.about, div.join-us {
-    margin: 64px;
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  #page {
+    margin: 32px;
   }
 
   .workout-img-tag, .about-img-tag {
     height: auto;
-    width: 100%;
+    width: 50%;
     align: center;
     margin-bottom: 16px;
-}
-
-  .navbar {
-    width: inherit;
-  }
-
-  .workout-section, .about-section, .join-section {
-    width: 85%;
-  }
-
-  a.btn {
-    width: inherit;
-    margin-bottom: 32px;
-  }
-
-  .workout-content, .about-content, .join-us{
-    text-align: center;
-  }
-}
-
-
-
-
-
-/*Desktop*/
-@media screen and (min-width: 1200px) {
-  div.workouts, div.about, div.join-us {
-    margin: 64px;
-    padding: 64px 64px;
   }
 
   .workout-img-tag {
@@ -97,10 +87,113 @@
 
   .workout-content {
     float: right;
-    width: 60%;
+    width: 40%;
   }
 
   .about-content {
-    width: 60%;
+    width: 40%;
+  }
+
+  a.btn {
+    width: 250px;
+    margin-bottom: 32px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+  #page {
+    margin: 48px;
+  }
+
+  .workout-img-tag, .about-img-tag {
+    height: auto;
+    width: 50%;
+    align: center;
+    margin-bottom: 16px;
+  }
+
+  .workout-img-tag {
+    float: left;
+    margin-bottom: 64px;
+  }
+
+  .about-img-tag {
+    float: right;
+    margin-bottom: 64px;
+  }
+
+  .about, .join-us {
+    clear: both;
+  }
+
+  .join-us {
+    text-align: center;
+  }
+
+  .workout-content {
+    float: right;
+    width: 45%;
+  }
+
+  .about-content {
+    width: 45%;
+  }
+
+  a.btn {
+    width: 280px;
+    margin-bottom: 32px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  #page {
+    margin: 64px;
+  }
+
+  .workout-img-tag, .about-img-tag {
+    height: auto;
+    width: 50%;
+    align: center;
+    margin-bottom: 16px;
+  }
+
+  .workout-img-tag {
+    float: left;
+    margin-bottom: 64px;
+  }
+
+  .about-img-tag {
+    float: right;
+    margin-bottom: 64px;
+  }
+
+  .about, .join-us {
+    clear: both;
+  }
+
+  .join-us {
+    text-align: center;
+  }
+
+  .workout-content {
+    float: right;
+    width: 45%;
+  }
+
+  .about-content {
+    width: 45%;
+  }
+
+  a.btn {
+    width: 280px;
+    margin-bottom: 32px;
+    text-align: center;
+    margin-bottom: 32px;
   }
 }
