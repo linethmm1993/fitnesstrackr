@@ -18,7 +18,7 @@ footer {
 @media screen and (max-width: 576px) {
 
 .login_body {
-  margin: 16px;
+  margin: 12px;
 }
 
 .title, .input, .button-submit {
