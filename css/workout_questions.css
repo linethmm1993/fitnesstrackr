@@ -1,6 +1,5 @@
-@charset "UTF-8";
-
-/* CSS Document */
+/* Extra small devices (portrait phones, less than 576px)
+ No media query for xs since this is the default in Bootstrap */
 /*All devices*/
 #home {
   text-align: left;
@@ -10,10 +9,10 @@
   text-align: center;
 }
 
-/*iPhone X*/
-@media screen and (max-width: 375px) {
-  #home {
-    margin: 32px;
+/* Extra Small devices (landscape phones, 576px and down)*/
+@media screen and (max-width: 576px) {
+  #page {
+    margin: 12px;
   }
 
   .question, .title {
@@ -21,10 +20,10 @@
   }
 }
 
-/*iPad*/
-@media screen and (min-width: 768px) {
-  #home {
-    margin: 48px;
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  #page {
+    margin: 16px;
   }
 
   .question, .title {
@@ -32,17 +31,39 @@
   }
 }
 
-/*Desktop*/
-@media screen and (min-width: 1200px) {
-  #home {
-    margin: 64px;
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  #page {
+    margin: 32px;
   }
 
   .question, .title {
     margin-bottom: 30px;
   }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+  #page {
+    margin: 48px;
+  }
+
+  .question, .title {
+    margin-bottom: 35px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  #page {
+    margin: 64px;
+  }
+
+  .question, .title {
+    margin-bottom: 40px;
+  }
 
   .title {
-    width: 50%;
+    width: 55%;
   }
 }
