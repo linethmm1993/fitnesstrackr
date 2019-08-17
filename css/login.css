@@ -5,59 +5,51 @@ footer {
   width: 100%;
 }
 
+.button-submit, .signup{
+  text-align: center;
+}
+
+.signup_text {
+  font-style: italic;
+}
+
 /*iPhone X*/
 @media screen and (max-width: 375px) {
-  .input-fields {
-    width: 85%;
+  .login_body{
+    margin: 32px;
   }
 
   .title, .input, .button-submit {
-    padding-bottom: 12px;
-  }
-
-  .login_body {
-    margin: 24px;
+    padding-bottom: 16px;
   }
 
   .password_input {
-    margin-bottom: 32px;
+    margin-bottom: 64px;
   }
 }
 
 /*iPad*/
 @media screen and (min-width: 768px) {
-  .signup_text {
-    font-style: italic;
-  }
 
   .login_body {
-    margin-top: 64px;
-    margin-bottom: 64px;
-    margin-left: 64px;
-    margin-right: 64px;
-  }
-
-  .input-fields {
-    width: 35%;
+    margin: 48px;
   }
 
   .title, .input, .button-submit {
-    padding-bottom: 24px;
+    padding-bottom: 32px;
   }
+
+  .password_input {
+    margin-bottom: 64px;
+  }
+
 }
 }
 
 /*Desktop*/
-@media screen and (min-width: 1200px) {
-  .signup_text {
-    font-style: italic;
-  }
-
+@media screen and (max-width: 1200px) {
   .login_body {
-    margin-top: 64px;
-    margin-bottom: 64px;
-    margin-left: 64px;
-    margin-right: 64px;
+    margin: 64px;
   }
 
   .input-fields {
@@ -65,6 +57,10 @@ footer {
   }
 
   .title, .input, .button-submit {
-    padding-bottom: 24px;
+    padding-bottom: 64px;
+  }
+
+  .password_input {
+    margin-bottom: 640px;
   }
 }
