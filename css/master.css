@@ -11,17 +11,17 @@
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
   div{
-    margin: 32px }
+    margin: 32px; }
   }
 
 /* Large devices (desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
   div{
-    margin: 48px }
+    margin: 48px; }
   }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
   div{
-    margin: 64px }
+    margin: 64px; }
   }

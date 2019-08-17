@@ -13,9 +13,52 @@ footer {
   font-style: italic;
 }
 
-/*iPhone X*/
-@media screen and (max-width: 375px) {
-  .login_body{
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+
+.login_body {
+  margin: 16px;
+}
+
+.title, .input, .button-submit {
+  padding-bottom: 16px;
+}
+
+.password_input {
+  margin-bottom: 24px;
+}
+
+.input-fields {
+    width: 85%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+
+.login_body {
+  margin: 16px;
+}
+
+.title, .input, .button-submit {
+  padding-bottom: 16px;
+}
+
+.password_input {
+  margin-bottom: 24px;
+}
+
+.input-fields {
+    width: 85%;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+  .login_body {
     margin: 32px;
   }
 
@@ -24,30 +67,35 @@ footer {
   }
 
   .password_input {
-    margin-bottom: 64px;
+    margin-bottom: 24px;
   }
+  .input-fields {
+    width: 65%;
+  }
+
 }
 
-/*iPad*/
-@media screen and (min-width: 768px) {
 
-  .login_body {
-    margin: 48px;
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+ .login_body {
+    margin: 48px; }
+  }
+  .input-fields {
+    width: 45%;
   }
 
   .title, .input, .button-submit {
-    padding-bottom: 32px;
+    padding-bottom: 16px;
   }
 
   .password_input {
-    margin-bottom: 64px;
+    margin-bottom: 24px;
   }
-
-}
 }
 
-/*Desktop*/
-@media screen and (max-width: 1200px) {
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
   .login_body {
     margin: 64px;
   }
@@ -57,10 +105,10 @@ footer {
   }
 
   .title, .input, .button-submit {
-    padding-bottom: 64px;
+    padding-bottom: 16px;
   }
 
   .password_input {
-    margin-bottom: 640px;
+    margin-bottom: 24px;
   }
 }
