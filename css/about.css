@@ -1,0 +1,199 @@
+/* Extra small devices (portrait phones, less than 576px)
+ No media query for xs since this is the default in Bootstrap */
+/* Extra Small devices (landscape phones, 576px and down)*/
+@media screen and (max-width: 576px) {
+  #page {
+    margin: 12px;
+  }
+
+  .workout-img-tag, .about-img-tag {
+    height: auto;
+    width: 100%;
+    align: center;
+    margin-bottom: 16px;
+  }
+
+  .navbar {
+    width: inherit;
+  }
+
+  a.btn {
+    width: inherit;
+    margin-bottom: 48px;
+  }
+
+  .workout-content, .about-content, .join-us {
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  #page {
+    margin: 16px;
+  }
+
+  .workout-img-tag, .about-img-tag {
+    height: auto;
+    width: 100%;
+    align: center;
+    margin-bottom: 16px;
+  }
+
+  .navbar {
+    width: inherit;
+  }
+
+  a.btn {
+    width: inherit;
+    margin-bottom: 72px;
+  }
+
+  .workout-content, .about-content, .join-us {
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  #page {
+    margin: 32px;
+  }
+
+  .workout-img-tag, .about-img-tag {
+    height: auto;
+    width: 50%;
+    align: center;
+    margin-bottom: 16px;
+  }
+
+  .workout-img-tag {
+    float: left;
+    margin-bottom: 64px;
+  }
+
+  .about-img-tag {
+    float: right;
+    margin-bottom: 64px;
+  }
+
+  .about, .join-us {
+    clear: both;
+  }
+
+  .join-us {
+    text-align: center;
+  }
+
+  .workout-content {
+    float: right;
+    width: 40%;
+  }
+
+  .about-content {
+    width: 40%;
+  }
+
+  a.btn {
+    width: 250px;
+    margin-bottom: 32px;
+    text-align: center;
+    margin-bottom: 96px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+  #page {
+    margin: 48px;
+  }
+
+  .workout-img-tag, .about-img-tag {
+    height: auto;
+    width: 50%;
+    align: center;
+    margin-bottom: 16px;
+  }
+
+  .workout-img-tag {
+    float: left;
+    margin-bottom: 64px;
+  }
+
+  .about-img-tag {
+    float: right;
+    margin-bottom: 64px;
+  }
+
+  .about, .join-us {
+    clear: both;
+  }
+
+  .join-us {
+    text-align: center;
+  }
+
+  .workout-content {
+    float: right;
+    width: 45%;
+  }
+
+  .about-content {
+    width: 45%;
+  }
+
+  a.btn {
+    width: 280px;
+    margin-bottom: 32px;
+    text-align: center;
+    margin-bottom: 124px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  #page {
+    margin: 64px;
+  }
+
+  .workout-img-tag, .about-img-tag {
+    height: auto;
+    width: 50%;
+    align: center;
+    margin-bottom: 16px;
+  }
+
+  .workout-img-tag {
+    float: left;
+    margin-bottom: 64px;
+  }
+
+  .about-img-tag {
+    float: right;
+    margin-bottom: 64px;
+  }
+
+  .about, .join-us {
+    clear: both;
+  }
+
+  .join-us {
+    text-align: center;
+  }
+
+  .workout-content {
+    float: right;
+    width: 45%;
+  }
+
+  .about-content {
+    width: 45%;
+  }
+
+  a.btn {
+    width: 280px;
+    margin-bottom: 32px;
+    text-align: center;
+    margin-bottom: 160px;
+  }
+}
