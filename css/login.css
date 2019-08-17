@@ -29,9 +29,7 @@ footer {
   margin-bottom: 24px;
 }
 
-.input-fields {
-    width: 85%;
-  }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -49,9 +47,7 @@ footer {
   margin-bottom: 24px;
 }
 
-.input-fields {
-    width: 85%;
-  }
+
 }
 
 
@@ -73,6 +69,8 @@ footer {
     width: 65%;
   }
 
+.button-submit, .signup {text-align: left;}
+
 }
 
 
@@ -80,7 +78,7 @@ footer {
 @media screen and (min-width: 992px) {
  .login_body {
     margin: 48px; }
-  }
+
   .input-fields {
     width: 45%;
   }
@@ -92,6 +90,9 @@ footer {
   .password_input {
     margin-bottom: 24px;
   }
+
+  .button-submit, .signup {text-align: left;}
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -111,4 +112,6 @@ footer {
   .password_input {
     margin-bottom: 24px;
   }
+
+  .button-submit, .signup {text-align: left;}
 }
