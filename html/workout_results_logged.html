@@ -10,10 +10,10 @@
 
   <!-- Bootstrap -->
   <link href="../css/bootstrap-4.0.0.css" rel="stylesheet">
-  <link href="../css/workout_results.css" rel="stylesheet">
   <link href="../css/font.css" rel="stylesheet">
   <link href="../css/nav.css" rel="stylesheet">
   <link href="../css/buttons.css" rel="stylesheet">
+  <link href="../css/workout_results.css" rel="stylesheet">
   <link href="../js/workout_results.js" rel="script">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
 
@@ -26,13 +26,13 @@
       <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
         <div class="logo_name">
-        <a href="index.html"><img class="logo-icon" src="../images/fitnesstrackr-logo-white.png" alt="fitness-trackr-logo" href="index.html" height="32" width="32"></a>
-        <a class="navbar-brand logo" title="fitness-trackr" href="index.html">Fitness Trackr</a>
-      </div>
+          <a href="index.html"><img class="logo-icon" src="../images/fitnesstrackr-logo-white.png" alt="fitness-trackr-logo" href="index.html" height="32" width="32"></a>
+          <a class="navbar-brand logo" title="fitness-trackr" href="index.html">Fitness Trackr</a>
+        </div>
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<span class="navbar-toggler-icon"></span>
+</button>
 
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -41,303 +41,303 @@
               <a class="nav-link home-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item workouts-nav">
-              <a class="nav-link workouts-link" href="workout_results_logged.html">MY WORKOUT</a>
+              <a class="nav-link workouts-link" href="workout_questions.html">WORKOUTS</a>
             </li>
             <li class="nav-item about-nav">
               <a class="nav-link about-link" href="about.html">ABOUT</a>
             </li>
             <li class="nav-item login-nav">
-              <a class="nav-link login-link" href="my_account.html">MY ACCOUNT</a>
+              <a class="nav-link login-link" href="login.html">LOGIN</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-
-<!-- Overlay start -->
-    <div id="overlay">
-      <div class="overlay-btns">
+  </div>
+  <!-- Overlay start -->
+  <div id="overlay">
+    <div class="overlay-btns">
       <a class="btn" title="workouts" href="..pdf/workout_resluts.pdf" target="_blank">SAVE WORKOUT</a>
       <button class="btn-inverse cancel-btn" onclick="off()">CANCEL</button>
     </div>
-    </div>
-<!-- Overlay end -->
+  </div>
+  <!-- Overlay end -->
+ <div class="your-workout-content" id="page">
+  <div class="your-workout">
+    <h2>YOUR WORKOUT</h2>
+  </div>
+  <hr class="header-lin">
+  <div class="exercise_1">
 
-    <div class="your-workout">
-      <h2>YOUR WORKOUT</h2>
-    </div>
-    <hr class="header-lin">
-    <div class="exercise_1">
-
-      <h3>Exercise Name</h3>
-      <div class="sets">
-        <p>Sets</p>
-        <div class="set-group">
+    <h3>Exercise Name</h3>
+    <div class="sets">
+      <p>Sets</p>
+      <div class="set-group">
+        <div class="set-1">
+          <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
+</div>
           <div class="set-1">
             <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
+</div>
             <div class="set-1">
               <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
+</div>
               <div class="set-1">
                 <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
-                <div class="set-1">
-                  <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
-                </div>
-
+</div>
               </div>
 
-              <div class="weights">
-                <p>Weight</p>
-                <div class="weight-group">
+            </div>
+
+            <div class="weights">
+              <p>Weight</p>
+              <div class="weight-group">
+                <div class="weight-1">
+                  <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
+</div>
                   <div class="weight-1">
                     <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
+</div>
                     <div class="weight-1">
                       <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
+</div>
                       <div class="weight-1">
                         <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
-                        <div class="weight-1">
-                          <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
-                        </div>
+</div>
                       </div>
-
-                      <div class="form-group comment-box">
-                        <label for="comment">Notes:</label>
-                        <textarea class="form-control" rows="5" id="comment"></textarea>
-
-                        <hr>
-                      </div>
-
                     </div>
 
-                    <div class="exercise_1">
+                    <div class="form-group comment-box">
+                      <label for="comment">Notes:</label>
+                      <textarea class="form-control" rows="5" id="comment"></textarea>
 
-                      <h3>Exercise Name</h3>
-                      <div class="sets">
-                        <p>Sets</p>
-                        <div class="set-group">
+                      <hr>
+                    </div>
+
+                  </div>
+                  <!--divs okay here-->
+                  <div class="exercise_1">
+
+                    <h3>Exercise Name</h3>
+                    <div class="sets">
+                      <p>Sets</p>
+                      <div class="set-group">
+                        <div class="set-1">
+                          <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
+</div>
                           <div class="set-1">
                             <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
+</div>
                             <div class="set-1">
                               <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
+</div>
                               <div class="set-1">
                                 <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
-                                <div class="set-1">
-                                  <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
-                                </div>
-
+</div>
                               </div>
 
-                              <div class="weights">
-                                <p>Weight</p>
-                                <div class="weight-group">
+                            </div>
+
+                            <div class="weights">
+                              <p>Weight</p>
+                              <div class="weight-group">
+                                <div class="weight-1">
+                                  <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
+</div>
                                   <div class="weight-1">
                                     <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
+</div>
                                     <div class="weight-1">
                                       <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
+</div>
                                       <div class="weight-1">
                                         <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
-                                        <div class="weight-1">
-                                          <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
-                                        </div>
+</div>
                                       </div>
-
-                                      <div class="form-group comment-box">
-                                        <label for="comment">Notes:</label>
-                                        <textarea class="form-control" rows="5" id="comment"></textarea>
-
-                                        <hr>
-                                      </div>
-
                                     </div>
 
+                                    <div class="form-group comment-box">
+                                      <label for="comment">Notes:</label>
+                                      <textarea class="form-control" rows="5" id="comment"></textarea>
+
+                                      <hr>
+                                    </div>
+
+                                  </div>
 
 
 
 
 
 
-                                    <div class="exercise_1">
 
-                                      <h3>Exercise Name</h3>
-                                      <div class="sets">
-                                        <p>Sets</p>
-                                        <div class="set-group">
+                                  <div class="exercise_1">
+
+                                    <h3>Exercise Name</h3>
+                                    <div class="sets">
+                                      <p>Sets</p>
+                                      <div class="set-group">
+                                        <div class="set-1">
+                                          <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
+</div>
                                           <div class="set-1">
                                             <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
+</div>
                                             <div class="set-1">
                                               <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
+</div>
                                               <div class="set-1">
                                                 <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
-                                                <div class="set-1">
-                                                  <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
-                                                </div>
-
+</div>
                                               </div>
 
-                                              <div class="weights">
-                                                <p>Weight</p>
-                                                <div class="weight-group">
+                                            </div>
+
+                                            <div class="weights">
+                                              <p>Weight</p>
+                                              <div class="weight-group">
+                                                <div class="weight-1">
+                                                  <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
+</div>
                                                   <div class="weight-1">
                                                     <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
+</div>
                                                     <div class="weight-1">
                                                       <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
+</div>
                                                       <div class="weight-1">
                                                         <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
-                                                        <div class="weight-1">
-                                                          <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
-                                                        </div>
-                                                      </div>
-
-                                                      <div class="form-group comment-box">
-                                                        <label for="comment">Notes:</label>
-                                                        <textarea class="form-control" rows="5" id="comment"></textarea>
-
-                                                        <hr>
+</div>
                                                       </div>
                                                     </div>
 
+                                                    <div class="form-group comment-box">
+                                                      <label for="comment">Notes:</label>
+                                                      <textarea class="form-control" rows="5" id="comment"></textarea>
+
+                                                      <hr>
+                                                    </div>
+                                                  </div>
 
 
 
-                                                    <div class="exercise_1">
 
-                                                      <h3>Exercise Name</h3>
-                                                      <div class="sets">
-                                                        <p>Sets</p>
-                                                        <div class="set-group">
+                                                  <div class="exercise_1">
+
+                                                    <h3>Exercise Name</h3>
+                                                    <div class="sets">
+                                                      <p>Sets</p>
+                                                      <div class="set-group">
+                                                        <div class="set-1">
+                                                          <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
+</div>
                                                           <div class="set-1">
                                                             <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
+</div>
                                                             <div class="set-1">
                                                               <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
+</div>
                                                               <div class="set-1">
                                                                 <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
-                                                                <div class="set-1">
-                                                                  <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
-                                                                </div>
-
+</div>
                                                               </div>
 
-                                                              <div class="weights">
-                                                                <p>Weight</p>
-                                                                <div class="weight-group">
+                                                            </div>
+
+                                                            <div class="weights">
+                                                              <p>Weight</p>
+                                                              <div class="weight-group">
+                                                                <div class="weight-1">
+                                                                  <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
+</div>
                                                                   <div class="weight-1">
                                                                     <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
+</div>
                                                                     <div class="weight-1">
                                                                       <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
+</div>
                                                                       <div class="weight-1">
                                                                         <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
-                                                                        <div class="weight-1">
-                                                                          <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
-                                                                        </div>
+</div>
                                                                       </div>
-
-                                                                      <div class="form-group comment-box">
-                                                                        <label for="comment">Notes:</label>
-                                                                        <textarea class="form-control" rows="5" id="comment"></textarea>
-
-                                                                        <hr>
-                                                                      </div>
-
                                                                     </div>
 
+                                                                    <div class="form-group comment-box">
+                                                                      <label for="comment">Notes:</label>
+                                                                      <textarea class="form-control" rows="5" id="comment"></textarea>
+
+                                                                      <hr>
+                                                                    </div>
+
+                                                                  </div>
 
 
-                                                                    <div class="exercise_1">
 
-                                                                      <h3>Exercise Name</h3>
-                                                                      <div class="sets">
-                                                                        <p>Sets</p>
-                                                                        <div class="set-group">
+                                                                  <div class="exercise_1">
+
+                                                                    <h3>Exercise Name</h3>
+                                                                    <div class="sets">
+                                                                      <p>Sets</p>
+                                                                      <div class="set-group">
+                                                                        <div class="set-1">
+                                                                          <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
+</div>
                                                                           <div class="set-1">
                                                                             <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
+</div>
                                                                             <div class="set-1">
                                                                               <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
+</div>
                                                                               <div class="set-1">
                                                                                 <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
-                                                                                <div class="set-1">
-                                                                                  <input type="text" class="form-group set-1-input" id="usr" placeholder="# Reps" width="40px">
-          </div>
-                                                                                </div>
-
+</div>
                                                                               </div>
 
-                                                                              <div class="weights">
-                                                                                <p>Weight</p>
-                                                                                <div class="weight-group">
+                                                                            </div>
+
+                                                                            <div class="weights">
+                                                                              <p>Weight</p>
+                                                                              <div class="weight-group">
+                                                                                <div class="weight-1">
+                                                                                  <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
+</div>
                                                                                   <div class="weight-1">
                                                                                     <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
+</div>
                                                                                     <div class="weight-1">
                                                                                       <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
+</div>
                                                                                       <div class="weight-1">
                                                                                         <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
-                                                                                        <div class="weight-1">
-                                                                                          <input type="text" class="form-group weight-1-input" id="usr" placeholder="lbs" width="40px">
-          </div>
-                                                                                        </div>
-                                                                                      </div>
-
-                                                                                      <div class="form-group comment-box">
-                                                                                        <label for="comment">Notes:</label>
-                                                                                        <textarea class="form-control" rows="5" id="comment"></textarea>
-
-                                                                                        <hr>
+</div>
                                                                                       </div>
                                                                                     </div>
 
+                                                                                    <div class="form-group comment-box">
+                                                                                      <label for="comment">Notes:</label>
+                                                                                      <textarea class="form-control" rows="5" id="comment"></textarea>
 
-                                                                                    <button class="btn download-btn" onclick="on()">DOWNLOAD WORKOUT</button>
+                                                                                      <hr>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
 
-                                                                                    <!-- JS -->
-                                                                                    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-                                                                                    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-                                                                                    <script src="../js/overlay.js"></script>
-                                                                                    <script src="../js/save_pdf.js"></script>
 
-                                                                                    <footer>
-                                                                                      &copy; Fitness Trackr
-                                                                                      <div class="footer-content">
-                                                                                        <a title="Privacy Policy" href="#">Privacy Policy</a>
-                                                                                        <a title="Terms of Service" href="#">Terms of Service</a>
-                                                                                      </div>
-                                                                                    </footer>
+                    <div class="workout-button">                                                             <button class="btn download-btn" onclick="on()">DOWNLOAD WORKOUT</button>
+</div>
+                                                                                  <!-- JS -->
+                                                                                  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+                                                                                  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+                                                                                  <script src="../js/overlay.js"></script>
+                                                                                  <script src="../js/save_pdf.js"></script>
 
+                                                                                  <footer>
+                                                                                    &copy; Fitness Trackr
+                                                                                    <div class="footer-content">
+                                                                                      <a title="Privacy Policy" href="#">Privacy Policy</a>
+                                                                                      <a title="Terms of Service" href="#">Terms of Service</a>
+                                                                                    </div>
+                                                                                  </footer>
 
 </body>
 

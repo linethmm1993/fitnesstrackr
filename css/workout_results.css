@@ -1,15 +1,8 @@
-
-/* Text */
-h2 {
-  font-family: Montserrat;
-  font-weight: 300;
-  font-size: 24px
-}
-
-/* Sets */
-
-.weights, .sets, {
-  margin-left: 64px;
+/* Extra small devices (portrait phones, less than 576px)
+ No media query for xs since this is the default in Bootstrap */
+/*All devices*/
+.comment-box {
+  width: 100%;
 }
 
 .set-1-input, .weight-1-input {
@@ -23,9 +16,9 @@ h2 {
   vertical-align: top;
 }
 
-
-
-
+.btn.cancel-btn {
+  display: block;
+}
 
 /* Overlay */
 #overlay {
@@ -44,47 +37,86 @@ h2 {
 
 .overlay-btns {
   position: absolute;
+  text-align: center;
   top: 30%;
-  left: 30%;
 }
 
-.btn.cancel-btn {
-  display: block;
-}
-
-
-
-/* Small devices (landscape phones, 576px and up) */
+/* Overlay END */
+/* Extra Small devices (landscape phones, 576px and down)*/
 @media screen and (max-width: 576px) {
-.comment-box {  width: 100%;}
-.your-workout-content  { margin: 12px;}
-.workout-button {text-align: center;}
-/*iPhone X*/
-  .btn, .btn-inverse{
-    width: 20em !important;}
+  #page {
+    margin: 12px;
+  }
 
+  .workout-button {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .btn, .btn-inverse {
+    width: 20em !important;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
-.comment-box {  width: 100%;}
-.your-workout-content  { margin: 16px;}
-.workout-button {text-align: center;}
+  #page {
+    margin: 16px;
+  }
+
+  .workout-button {
+    text-align: center;
+    margin-bottom: 16px;
+  }
 }
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-  .comment-box {  width: 100%;}
-  .your-workout-content  { margin: 32px;}
-
+  #page {
+    margin: 32px;
   }
+
+  .workout-button {
+    text-align: left;
+    margin-bottom: 32px;
+    margin-left: 32px;
+  }
+
+  .overlay-btns {
+    left: 8%;
+  }
+}
 
 /* Large devices (desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
-  .comment-box {  width: 100%;}
-  .your-workout-content  { margin: 48px;}
+  #page {
+    margin: 48px;
+  }
+
+  .workout-button {
+    text-align: left;
+    margin-bottom: 48px;
+    margin-left: 48px;
+  }
+
+  .overlay-btns {
+    left: 15%;
+  }
 }
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-  .comment-box {  width: 100%;}
-  .your-workout-content  { margin: 64px;}
+  #page {
+    margin: 64px;
   }
+
+  .workout-button {
+    text-align: left;
+    margin-bottom: 64px;
+    margin-left: 64px;
+  }
+
+  .overlay-btns {
+    left: 20%;
+  }
+}
