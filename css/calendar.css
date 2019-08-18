@@ -1,39 +1,74 @@
-footer {
-  position: absolute;
-  bottom: 0;
+/* Extra small devices (portrait phones, less than 576px)
+ No media query for xs since this is the default in Bootstrap */
+.container {
+  padding: 0px;
+  margin: 0px;
 }
 
-.title {
-  margin-top: 64px;
-  margin-left: 64px;
+/* Extra Small devices (landscape phones, 576px and down)*/
+@media screen and (max-width: 576px) {
+  #page {
+    margin: 12px;
+  }
+
+  .save_btn {
+    text-align: center;
+    margin: 30px 0px;
+  }
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  #page {
+    margin: 16px;
+  }
 
-.bootstrap-datetimepicker-widget tr:hover {
-    background-color: none;
+  .save_btn {
+    text-align: center;
+    margin: 40px 0px;
+  }
 }
 
-.calendar { margin-left: 48px;}
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  #page {
+    margin: 32px;
+  }
 
-/*dropdown sections*/
-.dropdown-options{
-  width: 192px;
-  margin-left: 16px;
+  .save_btn {
+    text-align: center;
+    margin: 50px 0px;
+  }
 }
 
-.form-group{
-  display: flex;
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+  #page {
+    margin: 48px;
+  }
+
+  select#sel1 {
+    width: 50%;
+  }
+
+  .save_btn {
+    text-align: left;
+    margin: 60px 0px;
+  }
 }
 
-.weekday_label{
-  margin-right: 15px;
-}
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  #page {
+    margin: 64px;
+  }
 
-.day-dropdown {
-   margin-left: 64px
-}
+  select#sel1 {
+    width: 50%;
+  }
 
-.save-btn {
-  margin-left: 64px;
-  margin-top: 32px;
+  .save_btn {
+    text-align: left;
+    margin: 70px 0px;
+  }
 }

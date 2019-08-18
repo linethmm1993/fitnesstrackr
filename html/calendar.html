@@ -10,11 +10,11 @@
   <title>Bootstrap - Prebuilt Layout</title>
 
   <!-- Icons -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
   <!-- Bootstrap -->
   <link href="../css/bootstrap-4.0.0.css" rel="stylesheet">
-  <link href="../css/calendar.css" rel="stylesheet">
+  <link href="../css/temp.css" rel="stylesheet">
   <link href="../css/font.css" rel="stylesheet">
   <link href="../css/nav.css" rel="stylesheet">
   <link href="../css/buttons.css" rel="stylesheet">
@@ -66,7 +66,7 @@
     </nav>
   </header>
 
-  <div class="login_page">
+  <div class="login_page" id="page">
 
     <div class="title">
       <h2>CALENDAR</h2>
@@ -76,150 +76,150 @@
 
 
     <div class="container calendar">
-    <div class="row">
+      <div class="row">
         <div class="col-sm-6 form-group">
-            <div class="input-group" id="DateDemo">
-              <input type='text' id='weeklyDatePicker' placeholder="Select Week" />
+          <div class="input-group" id="DateDemo">
+            <input type='text' id='weeklyDatePicker' placeholder="Select Week" />
             </div>
+          </div>
         </div>
+      </div>
+
+      <!-- Weekly dropdowns -->
+
+      <div class="form-group day-dropdown">
+        <label class="weekday_label" for="sel1">Sunday:</label>
+        <select class="form-control dropdown-options" id="sel1">
+    <option>Hamstrings</option>
+    <option>Quads</option>
+    <option>Calves</option>
+    <option>Glutes</option>
+    <option>Abs</option>
+    <option>Back</option>
+    <option>Triceps</option>
+    <option>Biceps</option>
+    <option>Shoulders</option>
+    <option>Chest</option>
+    <option>Rest</option>
+  </select>
+      </div>
+
+      <div class="form-group day-dropdown">
+        <label class="weekday_label" for="sel1">Monday:</label>
+        <select class="form-control dropdown-options" id="sel1">
+    <option>Hamstrings</option>
+    <option>Quads</option>
+    <option>Calves</option>
+    <option>Glutes</option>
+    <option>Abs</option>
+    <option>Back</option>
+    <option>Triceps</option>
+    <option>Biceps</option>
+    <option>Shoulders</option>
+    <option>Chest</option>
+    <option>Rest</option>
+  </select>
+      </div>
+
+      <div class="form-group day-dropdown">
+        <label class="weekday_label" for="sel1">Tuesday:</label>
+        <select class="form-control dropdown-options" id="sel1">
+    <option>Hamstrings</option>
+    <option>Quads</option>
+    <option>Calves</option>
+    <option>Glutes</option>
+    <option>Abs</option>
+    <option>Back</option>
+    <option>Triceps</option>
+    <option>Biceps</option>
+    <option>Shoulders</option>
+    <option>Chest</option>
+    <option>Rest</option>
+  </select>
+      </div>
+
+      <div class="form-group day-dropdown">
+        <label class="weekday_label" for="sel1">Wedneday:</label>
+        <select class="form-control dropdown-options" id="sel1">
+    <option>Hamstrings</option>
+    <option>Quads</option>
+    <option>Calves</option>
+    <option>Glutes</option>
+    <option>Abs</option>
+    <option>Back</option>
+    <option>Triceps</option>
+    <option>Biceps</option>
+    <option>Shoulders</option>
+    <option>Chest</option>
+    <option>Rest</option>
+  </select>
+      </div>
+
+      <div class="form-group day-dropdown">
+        <label class="weekday_label" for="sel1">Thursday:</label>
+        <select class="form-control dropdown-options" id="sel1">
+    <option>Hamstrings</option>
+    <option>Quads</option>
+    <option>Calves</option>
+    <option>Glutes</option>
+    <option>Abs</option>
+    <option>Back</option>
+    <option>Triceps</option>
+    <option>Biceps</option>
+    <option>Shoulders</option>
+    <option>Chest</option>
+    <option>Rest</option>
+  </select>
+      </div>
+
+      <div class="form-group day-dropdown">
+        <label class="weekday_label" for="sel1">Friday:</label>
+        <select class="form-control dropdown-options" id="sel1">
+    <option>Hamstrings</option>
+    <option>Quads</option>
+    <option>Calves</option>
+    <option>Glutes</option>
+    <option>Abs</option>
+    <option>Back</option>
+    <option>Triceps</option>
+    <option>Biceps</option>
+    <option>Shoulders</option>
+    <option>Chest</option>
+    <option>Rest</option>
+  </select>
+      </div>
+
+      <div class="form-group day-dropdown">
+        <label class="weekday_label" for="sel1">Saturday:</label>
+        <select class="form-control dropdown-options" id="sel1">
+    <option>Hamstrings</option>
+    <option>Quads</option>
+    <option>Calves</option>
+    <option>Glutes</option>
+    <option>Abs</option>
+    <option>Back</option>
+    <option>Triceps</option>
+    <option>Biceps</option>
+    <option>Shoulders</option>
+    <option>Chest</option>
+    <option>Rest</option>
+  </select>
+      </div>
+      <!-- Weekly dropdowns END -->
+      <div class="save_btn">
+      <a class="btn save-btn" title="calendar_save_btn" href="#">SAVE</a>
     </div>
 </div>
+          <footer>
+            &copy; Fitness Trackr
+            <div class="footer-content">
+              <a title="Privacy Policy" href="#">Privacy Policy</a>
+              <a title="Terms of Service" href="#">Terms of Service</a>
+            </div>
+          </footer>
 
-<!-- Weekly dropdowns -->
-
-<div class="form-group day-dropdown">
-  <label class="weekday_label" for="sel1">Sunday:</label>
-  <select class="form-control dropdown-options" id="sel1">
-    <option>Hamstrings</option>
-    <option>Quads</option>
-    <option>Calves</option>
-    <option>Glutes</option>
-    <option>Abs</option>
-    <option>Back</option>
-    <option>Triceps</option>
-    <option>Biceps</option>
-    <option>Shoulders</option>
-    <option>Chest</option>
-    <option>Rest</option>
-  </select>
-</div>
-
-<div class="form-group day-dropdown">
-  <label class="weekday_label" for="sel1">Monday:</label>
-  <select class="form-control dropdown-options" id="sel1">
-    <option>Hamstrings</option>
-    <option>Quads</option>
-    <option>Calves</option>
-    <option>Glutes</option>
-    <option>Abs</option>
-    <option>Back</option>
-    <option>Triceps</option>
-    <option>Biceps</option>
-    <option>Shoulders</option>
-    <option>Chest</option>
-    <option>Rest</option>
-  </select>
-</div>
-
-<div class="form-group day-dropdown">
-  <label class="weekday_label" for="sel1">Tuesday:</label>
-  <select class="form-control dropdown-options" id="sel1">
-    <option>Hamstrings</option>
-    <option>Quads</option>
-    <option>Calves</option>
-    <option>Glutes</option>
-    <option>Abs</option>
-    <option>Back</option>
-    <option>Triceps</option>
-    <option>Biceps</option>
-    <option>Shoulders</option>
-    <option>Chest</option>
-    <option>Rest</option>
-  </select>
-</div>
-
-<div class="form-group day-dropdown">
-  <label class="weekday_label" for="sel1">Wedneday:</label>
-  <select class="form-control dropdown-options" id="sel1">
-    <option>Hamstrings</option>
-    <option>Quads</option>
-    <option>Calves</option>
-    <option>Glutes</option>
-    <option>Abs</option>
-    <option>Back</option>
-    <option>Triceps</option>
-    <option>Biceps</option>
-    <option>Shoulders</option>
-    <option>Chest</option>
-    <option>Rest</option>
-  </select>
-</div>
-
-<div class="form-group day-dropdown">
-  <label class="weekday_label" for="sel1">Thursday:</label>
-  <select class="form-control dropdown-options" id="sel1">
-    <option>Hamstrings</option>
-    <option>Quads</option>
-    <option>Calves</option>
-    <option>Glutes</option>
-    <option>Abs</option>
-    <option>Back</option>
-    <option>Triceps</option>
-    <option>Biceps</option>
-    <option>Shoulders</option>
-    <option>Chest</option>
-    <option>Rest</option>
-  </select>
-</div>
-
-<div class="form-group day-dropdown">
-  <label class="weekday_label" for="sel1">Friday:</label>
-  <select class="form-control dropdown-options" id="sel1">
-    <option>Hamstrings</option>
-    <option>Quads</option>
-    <option>Calves</option>
-    <option>Glutes</option>
-    <option>Abs</option>
-    <option>Back</option>
-    <option>Triceps</option>
-    <option>Biceps</option>
-    <option>Shoulders</option>
-    <option>Chest</option>
-    <option>Rest</option>
-  </select>
-</div>
-
-<div class="form-group day-dropdown">
-  <label class="weekday_label" for="sel1">Saturday:</label>
-  <select class="form-control dropdown-options" id="sel1">
-    <option>Hamstrings</option>
-    <option>Quads</option>
-    <option>Calves</option>
-    <option>Glutes</option>
-    <option>Abs</option>
-    <option>Back</option>
-    <option>Triceps</option>
-    <option>Biceps</option>
-    <option>Shoulders</option>
-    <option>Chest</option>
-    <option>Rest</option>
-  </select>
-</div>
-<!-- Weekly dropdowns END -->
-
-<a class="btn save-btn" title="calendar_save_btn" href="#">SAVE</a>
-
-
-      <footer>
-        &copy; Fitness Trackr
-        <div class="footer-content">
-          <a title="Privacy Policy" href="#">Privacy Policy</a>
-          <a title="Terms of Service" href="#">Terms of Service</a>
-        </div>
-      </footer>
-
-<!-- Java -->
-<script src="../js/calendar.js"></script>
+      <!-- Java -->
+      <script src="../js/calendar.js"></script>
 
 
 </body>
