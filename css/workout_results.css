@@ -1,6 +1,4 @@
-@charset "UTF-8";
 
-/* CSS Document */
 /* Text */
 h2 {
   font-family: Montserrat;
@@ -9,24 +7,6 @@ h2 {
 }
 
 /* Sets */
-.header-line {
-  margin-bottom: 64px;
-}
-
-h2, h3, p {
-  margin-left: 64px
-}
-
-h2 {
-  margin-top: 64px;
-}
-
-
-.comment-box {
-  margin-left: 64px;
-  margin-bottom: 64px;
-  width: 50%;
-}
 
 .weights, .sets, {
   margin-left: 64px;
@@ -43,34 +23,9 @@ h2 {
   vertical-align: top;
 }
 
-.weight-group, .set-group {
-  margin-left: 64px;
-}
 
-/* Button Styling */
-a.btn {
-  font-size: 1em;
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  background-color: #D9001B;
-  border-radius: 2px;
-  display: inline-block;
-  border: none;
-  padding: 16px 64px
-}
 
-a.btn:hover {
-  font-size: 1em;
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  background-color: #A30014;
-  border-radius: 2px;
-  display: inline-block;
-  border: none;
-  padding: 16px 64px
-}
+
 
 /* Overlay */
 #overlay {
@@ -97,30 +52,39 @@ a.btn:hover {
   display: block;
 }
 
-.download-btn { margin-bottom: 64px;
-                margin-left: 64px; }
 
 
-/* Responsive */
-@media screen and (max-width: 768px) {
-  .comment-box {
-    width: 75%;
-  }
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+.comment-box {  width: 100%;}
+.your-workout-content  { margin: 12px;}
+.workout-button {text-align: center;}
+/*iPhone X*/
+  .btn, .btn-inverse{
+    width: 20em !important;}
 
-  .overlay-btns {
-    position: absolute;
-		top: 25%;
-    left: -5%;
-  }
 }
 
-@media screen and (max-width: 610px) {
-  .comment-box {
-    width: 50%;
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+.comment-box {  width: 100%;}
+.your-workout-content  { margin: 16px;}
+.workout-button {text-align: center;}
+}
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .comment-box {  width: 100%;}
+  .your-workout-content  { margin: 32px;}
+
   }
 
-  .overlay-btns {
-    position: absolute;
-    margin-left: 64px;
-  }
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+  .comment-box {  width: 100%;}
+  .your-workout-content  { margin: 48px;}
 }
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  .comment-box {  width: 100%;}
+  .your-workout-content  { margin: 64px;}
+  }
