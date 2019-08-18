@@ -14,7 +14,7 @@
 
   <!-- Bootstrap -->
   <link href="../css/bootstrap-4.0.0.css" rel="stylesheet">
-  <link href="../css/temp.css" rel="stylesheet">
+  <link href="../css/calendar.css" rel="stylesheet">
   <link href="../css/font.css" rel="stylesheet">
   <link href="../css/nav.css" rel="stylesheet">
   <link href="../css/buttons.css" rel="stylesheet">
@@ -207,9 +207,17 @@
       </div>
       <!-- Weekly dropdowns END -->
       <div class="save_btn">
-      <a class="btn save-btn" title="calendar_save_btn" href="#">SAVE</a>
+      <button class="btn save-btn" onclick="on()">SAVE</button>
+    </div>
+
+    <div id="saved_calendar_confirmation">
+      <p>Calendar Saved</p>
     </div>
 </div>
+
+<!--Javascript files -->
+<script src="../js/saved_calendar.js"></script>
+
           <footer>
             &copy; Fitness Trackr
             <div class="footer-content">
